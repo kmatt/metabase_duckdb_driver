@@ -1,0 +1,3 @@
+# Start container with local data volume and H2 database
+
+podman run -d -p 3000:3000 --name metaduck -e MB_PLUGINS_DIR=/home/plugins -e MB_DB_FILE=/metabase.db -v $HOME/data/metabase.db:/metabase.db:Z -v $HOME/data:/mnt/data:Z localhost/metaduck
