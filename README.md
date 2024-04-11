@@ -1,3 +1,6 @@
+# Archived
+**This repository has moved to new maintainer https://github.com/MotherDuck-Open-Source/metabase_duckdb_driver**
+
 # Metabase DuckDB Driver (Community-Supported)
 
 The Metabase DuckDB allows Metabase SNAPSHOT to use embedded DuckDB database.
